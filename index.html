@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center m-3">Weather App</h1>
+        <div class="card shadow-lg rounded m-auto">
+            <div class="card-body text-center">
+                <img src="images/Weather (2).jpg" alt="" id="imageTime">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" name="searchCity" id="searchCity" class="form-control"
+                        placeholder="Enter Your Location" autocomplete="off">
+
+                    </div>
+                </form>
+                <div class="card card-body  m-2 d-none list-card">
+                    <div class="list"></div>
+                </div>
+                <h1 class="text-center" id="city-name">Mogadishu</h1>
+                <h4 class="text-center" id="weather-text">Weather Text</h4>
+                <h4 class="text-center" id="degree" m-5>35 &deg;C</h4>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
